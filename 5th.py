@@ -1,5 +1,8 @@
-import calendar
-year=int(input("Enter Year::"))
-month=int(input("Enter Month::"))
-c=calendar.month(year,month)
-print(c)
+y=int(input("Enter Year::"))
+if(y%400==0):
+    print ("it is a leap year")
+elif(y%4==0 and y%100!=0):
+    print ("it is a leap year")
+else:
+    print("not a leap year")
+

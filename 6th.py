@@ -1,8 +1,6 @@
-y=int(input("Enter Year::"))
-if(y%400==0):
-    print ("it is a leap year")
-elif(y%4==0 and y%100!=0):
-    print ("it is a leap year")
+s=input("enter number:-")
+reverse=s[ : :-1]
+if (s==reverse):
+    print("its a palindrome number")
 else:
-    print("not a leap year")
-
+    print("not a palindrome number")

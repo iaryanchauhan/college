@@ -1,5 +1,4 @@
-#find area of triangle
-a = float(input("enter the lenght of trangle:"))
-b = float(input("enter the height of trangle:"))
-c = 0.5*a*b
-print(f"area of tarangle is {c}")
+#wap to convert kilometers into miles
+k=float(input("enter kilometers: "))
+miles= k*.62
+print(f"{k} kilometer is = to {miles} miles")
